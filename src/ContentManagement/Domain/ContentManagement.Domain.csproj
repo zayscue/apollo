@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Apollo.OpenAssessments.ContentManagement.Domain</AssemblyName>
+    <RootNamespace>Apollo.OpenAssessments.ContentManagement.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>

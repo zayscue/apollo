@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>e7052cff-46bc-48a9-890c-45f615326be9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <AssemblyName>Apollo.OpenAssessments.ContentManagement.API</AssemblyName>
+    <RootNamespace>Apollo.OpenAssessments.ContentManagement.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+
+</Project>
